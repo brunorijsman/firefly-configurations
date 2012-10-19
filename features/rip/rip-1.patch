@@ -1,0 +1,61 @@
+[edit]
++  policy-options {
++      policy-statement rip-export-policy {
++          term term-1 {
++              from protocol [ direct rip ];
++              then accept;
++          }
++      }
++  }
+[edit routing-instances router-1]
++    protocols {
++        rip {
++            group rip-group {
++                export rip-export-policy;
++                neighbor lt-0/0/0.121;
++                neighbor lt-0/0/0.141;
++                neighbor ge-0/0/1.71;
++            }
++        }
++    }
+[edit routing-instances router-2]
++    protocols {
++        rip {
++            group rip-group {
++                export rip-export-policy;
++                neighbor ge-0/0/2.72;
++                neighbor lt-0/0/0.122;
++                neighbor lt-0/0/0.252;
++            }
++        }
++    }
+[edit routing-instances router-3]
++    protocols {
++        rip {
++            group rip-group {
++                export rip-export-policy;
++                neighbor ge-0/0/3.73;
++                neighbor lt-0/0/0.353;
++            }
++        }
++    }
+[edit routing-instances router-4]
++    protocols {
++        rip {
++            group rip-group {
++                export rip-export-policy;
++                neighbor lt-0/0/0.454;
++                neighbor lt-0/0/0.144;
++            }
++        }
++    }
+[edit routing-instances router-5]
++    protocols {
++        rip {
++            group rip-group {
++                export rip-export-policy;
++                neighbor lt-0/0/0.455;
++                neighbor lt-0/0/0.355;
++            }
++        }
++    }
