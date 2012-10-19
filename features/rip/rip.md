@@ -10,9 +10,9 @@ We use the [five-nodes-p2p-and-lan](https://github.com/brunorijsman/firefly-conf
 
 ## Basic RIP Configuration
 
-Apply the following configuration patch[^1] to the topology configuration to enable RIP on all interfaces: 
+Apply the following configuration patch #1 to the topology configuration to enable RIP on all interfaces: 
 
-[^1]: To apply a configuration patch enter the `load patch terminal` command in configuration mode, copy & paste the configuration patch, and press control-D. 
+To apply a configuration patch enter the `load patch terminal` command in configuration mode, copy & paste the configuration patch, and press control-D. 
 
 ```
 [edit]
