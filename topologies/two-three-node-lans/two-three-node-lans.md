@@ -1,4 +1,13 @@
-# Two three node LANs
+# Two Three Node LANs
+
+
+## Description
+
+The two-three-node-lans topology consists of four routers connected by two LANs each connected to three of the four routers:
+
+![two-three-node-lans](two-three-node-lans.jpg)
+
+## Sanity Checks
 
 Ping from routing-instance router-1 to routing-instance router-2 over VLAN 7
 

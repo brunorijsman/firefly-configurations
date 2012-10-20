@@ -1,6 +1,14 @@
-# Three node linear
+# Three Node Linear
 
-Ping from routing-instance router-1 to routing-instance router-2
+## Description
+
+The three-node-linear topology consists of three routers in a linear configuration connected by point-to-point links:
+
+![three-node-linear](three-node-linear.jpg)
+
+## Sanity Checks
+
+Ping from routing-instance router-1 to routing-instance router-2:
 
 ```
 root> ping 12.12.12.2 routing-instance router-1 
@@ -9,7 +17,7 @@ PING 12.12.12.2 (12.12.12.2): 56 data bytes
 64 bytes from 12.12.12.2: icmp_seq=1 ttl=64 time=2.242 ms
 ```
 
-Ping from routing-instance router-2 to routing-instance router-3
+Ping from routing-instance router-2 to routing-instance router-3:
 
 ```
 root> ping 23.23.23.3 routing-instance router-2    
@@ -18,7 +26,7 @@ PING 23.23.23.3 (23.23.23.3): 56 data bytes
 64 bytes from 23.23.23.3: icmp_seq=1 ttl=64 time=2.320 ms
 ```
 
-Details on routing-instance route-1
+Details on routing-instance route-1:
 
 ```
 root> show route instance router-1 detail    
