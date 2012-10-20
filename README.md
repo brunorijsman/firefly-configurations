@@ -15,3 +15,5 @@ If you don't have access to Juniper equipment you can use [Junosphere](http://ww
 This is a personal project which is not sanctioned by or associated with Juniper Networks in any way. I use these configuration files myself to experiment with Junos features and learn. I am open sourcing them as a service to the community and to provide an easy path to learning Junos to anyone who is interested. See the [LICENSE](LICENSE.md) file for details on the open source license and *the complete absence of any warranty of any kind*.
 
 Bruno Rijsman 
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/fbaebf9adae9a588090865462231c798 "githalytics.com")](http://githalytics.com/github.com/brunorijsman)
