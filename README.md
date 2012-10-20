@@ -12,6 +12,6 @@ If you don't have access to Juniper equipment you can use [Junosphere](http://ww
 
 ## Background
 
-This is a personal project which is not sanctioned by or associated with Juniper Networks in any way. I use these configuration files myself to experiment with Junos features and learn. I am open sourcing them as a service to the community and to provide an easy path to learning Junos to anyone who is interested. See the [LICENSE](license.md) file for details on the open source license and *the complete absence of any warranty of any kind*.
+This is a personal project which is not sanctioned by or associated with Juniper Networks in any way. I use these configuration files myself to experiment with Junos features and learn. I am open sourcing them as a service to the community and to provide an easy path to learning Junos to anyone who is interested. See the [LICENSE](LICENSE.md) file for details on the open source license and *the complete absence of any warranty of any kind*.
 
 Bruno Rijsman 
