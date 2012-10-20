@@ -1,0 +1,40 @@
+[edit routing-instances router-1]
++    protocols {
++        ospf {
++            area 0.0.0.0 {
++                interface all;
++            }
++        }
++    }
+[edit routing-instances router-2]
++    protocols {
++        ospf {
++            area 0.0.0.0 {
++                interface all;
++            }
++        }
++    }
+[edit routing-instances router-3]
++    protocols {
++        ospf {
++            area 0.0.0.0 {
++                interface all;
++            }
++        }
++    }
+[edit routing-instances router-4]
++    protocols {
++        ospf {
++            area 0.0.0.0 {
++                interface all;
++            }
++        }
++    }
+[edit routing-instances router-5]
++    protocols {
++        ospf {
++            area 0.0.0.0 {
++                interface all;
++            }
++        }
++    }

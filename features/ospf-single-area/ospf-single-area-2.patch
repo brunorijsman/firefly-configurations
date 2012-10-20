@@ -1,0 +1,5 @@
+[edit routing-instances router-1 protocols ospf]
++  traceoptions {
++      file ospf-trace;
++      flag all;
++  }
