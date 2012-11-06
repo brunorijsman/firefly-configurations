@@ -7,25 +7,17 @@ This is a simple route reflector scenario:
 * No redundant route reflectors.
 * No hierarchical route reflectors.
 * A single cluster.
-* Use physical interface addreses for IBGP sessions (as opposed to loopback addresses).
+* Use physical interface addreses for IBGP sessions (as opoosed to loopback addresses).
 
 ## Topology
 
 ### Physical Topology
 
-<<<<<<< HEAD
-![bgp-simple-route-reflector-topology](bgp-simple-route-reflector-topology.png)
-
-### Protocols
-
-![bgp-simple-route-reflector-protocols](bgp-simple-route-reflector-protocols.png)
-=======
 ![bgp-simple-route-reflector-topology](bgp-simple-route-reflector-topology.jpg)
 
 ### Protocols
 
 ![bgp-simple-route-reflector-protocols](bgp-simple-route-reflector-protocols.jpg)
->>>>>>> Switch to JPG
 
 ## Configuration
 
@@ -520,3 +512,4 @@ traceroute to 4.4.4.4 (4.4.4.4) from 2.2.2.2, 30 hops max, 40 byte packets
  1  12.12.12.1 (12.12.12.1)  4.284 ms  3.910 ms  3.988 ms
  2  4.4.4.4 (4.4.4.4)  3.973 ms  3.643 ms  3.882 ms
 ```
+
