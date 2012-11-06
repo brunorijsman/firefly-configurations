@@ -13,11 +13,11 @@ This is a simple route reflector scenario:
 
 ### Physical Topology
 
-![bgp-simple-route-reflector-topology](./bgp-simple-route-reflector-topology.png)
+![bgp-simple-route-reflector-topology](bgp-simple-route-reflector-topology.jpg)
 
 ### Protocols
 
-![bgp-simple-route-reflector-protocols](./bgp-simple-route-reflector-protocols.png)
+![bgp-simple-route-reflector-protocols](bgp-simple-route-reflector-protocols.jpg)
 
 ## Configuration
 
