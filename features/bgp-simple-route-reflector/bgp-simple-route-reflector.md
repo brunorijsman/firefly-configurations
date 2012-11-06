@@ -13,11 +13,11 @@ This is a simple route reflector scenario:
 
 ### Physical Topology
 
-![bgp-simple-route-reflector-topology](bgp-simple-route-reflector-topology.jpg)
+![bgp-simple-route-reflector-topology](https://raw.github.com/brunorijsman/firefly-configurations/master/features/bgp-simple-route-reflector/bgp-simple-route-reflector-topology.jpg)
 
 ### Protocols
 
-![bgp-simple-route-reflector-protocols](bgp-simple-route-reflector-protocols.jpg)
+![bgp-simple-route-reflector-protocols](https://raw.github.com/brunorijsman/firefly-configurations/master/features/bgp-simple-route-reflector/bgp-simple-route-reflector-protocols.jpg)
 
 ## Configuration
 
