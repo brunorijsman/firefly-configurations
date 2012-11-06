@@ -1,0 +1,62 @@
+[edit]
++  policy-options {
++      policy-statement direct-routes {
++          from protocol direct;
++          then accept;
++      }
++  }
+[edit routing-instances router-1]
++    routing-options {
++        autonomous-system 100;
++    }
++    protocols {
++        bgp {
++            group clients {
++                type internal;
++                export direct-routes;
++                cluster 1.1.1.1;
++                neighbor 12.12.12.2;
++                neighbor 13.13.13.3;
++                neighbor 14.14.14.4;
++            }
++        }
++    }
+[edit routing-instances router-2]
++    routing-options {
++        autonomous-system 100;
++    }
++    protocols {
++        bgp {
++            group internal {
++                type internal;
++                export direct-routes;
++                neighbor 12.12.12.1;
++            }
++        }
++    }
+[edit routing-instances router-3]
++    routing-options {
++        autonomous-system 100;
++    }
++    protocols {
++        bgp {
++            group internal {
++                type internal;
++                export direct-routes;
++                neighbor 13.13.13.1;
++            }
++        }
++    }
+[edit routing-instances router-4]
++    routing-options {
++        autonomous-system 100;
++    }
++    protocols {
++        bgp {
++            group internal {
++                type internal;
++                export direct-routes;
++                neighbor 14.14.14.1;
++            }
++        }
++    }
