@@ -7,7 +7,7 @@ This is a simple route reflector scenario:
 * No redundant route reflectors.
 * No hierarchical route reflectors.
 * A single cluster.
-* Use physical interface addreses for IBGP sessions (as opoosed to loopback addresses).
+* Use physical interface addreses for IBGP sessions (as opposed to loopback addresses).
 
 ## Topology
 
