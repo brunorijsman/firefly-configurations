@@ -1,6 +1,6 @@
 # OSPF Single Area
 
-In this chapter shows how to configure the Open Shortest Path First (OSPF) in Junos using a virtual topology using routing instances. This is a basic OSPF configuration with a single area.
+This chapter shows how to configure Open Shortest Path First (OSPF) in Junos using a virtual topology using routing instances. This is a basic OSPF configuration with a single area.
 
 ## Topology
 
