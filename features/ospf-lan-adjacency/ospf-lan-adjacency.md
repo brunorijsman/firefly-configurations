@@ -6,11 +6,11 @@ This example explores the state machine for establishing an OSPF adjacency over 
 
 ### Physical Topology
 
-![ospf-lan-adjacency-topology](ospf-lan-adjacency-topology.jpg)
+![ospf-lan-adjacency-topology](https://raw.github.com/brunorijsman/firefly-configurations/master/features/ospf-lan-adjacency/ospf-lan-adjacency-topology.jpg)
 
 ### Protocols
 
-![ospf-lan-adjacency-protocols](ospf-lan-adjacency-protocols.jpg)
+![ospf-lan-adjacency-protocols](https://raw.github.com/brunorijsman/firefly-configurations/master/features/ospf-lan-adjacency/ospf-lan-adjacency-protocols.jpg)
 
 ## Configuration
 
