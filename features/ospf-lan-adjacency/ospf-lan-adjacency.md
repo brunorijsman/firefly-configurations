@@ -202,7 +202,7 @@ Prefix             Path  Route      NH       Metric NextHop       Nexthop
 
 OSPF routes on router-2:
 
-```file:///Users/brunorijsman/firefly-configurations/features/ospf-lan-adjacency/adjancency-packet-flow.tiff
+```
 root> show ospf route instance router-2    
 Topology default Route Table:
 
@@ -275,7 +275,7 @@ commit complete
 
 The Wireshark flow graph shows the packet ladder diagram for reestabilish the adjacency. Note that 224.0.0.5 is the "all OSPF routers" multicast address.
 
-![adjancency-packet-flow](adjancency-packet-flow.tiff)
+![adjancency-packet-flow](adjancency-packet-flow.jpg)
 
 The Wireshark capture file is saved as `adjancency-packet-flow.pcapng` and contains a total of 41 packets.
 
@@ -291,7 +291,7 @@ Initially, router-2 has not yet received any Hello packets from Router-1. At thi
 
 The following packet is an example of such a Hello (this is packet #3):
 
-![packet-3](packet-3.tiff)
+![packet-3](packet-3.jpg)
 
 Once router-2 receives the first Hello from router-1, router-2 will start reporting router-1 as an active neighbor; see packets #5, #6, #9, #10, #13, and #15.
 
@@ -301,7 +301,7 @@ One consequence of not yet being in the TwoWay state is that both the DR and the
 
 The following packet is an example of such a Hello (this is packet #15):
 
-![packet-15](packet-15.tiff)
+![packet-15](packet-15.jpg)
 
 ### TwoWay State
 
@@ -328,7 +328,7 @@ Both router-1 and router-2 will start by assuming they are the master. They will
 
 Packet #18 is the initial DB Description packet sent by router-2:
 
-![packet-18](packet-18.tiff)
+![packet-18](packet-18.jpg)
 
 When router-1 receives the initialize DB Description from router-2 it will discover that router-1 has the lower router ID and will assume the slave role. Router-1 will indicate that it is the slave by sending a DB Description packet with:
 
